@@ -1,0 +1,20 @@
+[project]
+name = "kdb_challenge"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Afsaneh98",email = "afsaneh98.heydari@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.0,<4.0.0)",
+    "pyarrow (>=23.0.1,<24.0.0)",
+    "fastapi (>=0.129.0,<0.130.0)",
+    "uvicorn (>=0.40.0,<0.41.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
